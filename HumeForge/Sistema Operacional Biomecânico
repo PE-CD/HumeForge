@@ -1,0 +1,64 @@
+# HumForge (`.hforge`)
+
+> *"Não estamos criando um servo. Estamos criando uma imagem de nós mesmos."*
+
+**HumForge** é uma linguagem de programação open-source para exoesqueletos, próteses ativas e sistemas ciber-físicos biomédicos.
+
+Enquanto outras linguagens veem o corpo humano como um ambiente externo imprevisível,
+a HumForge trata a biologia como parte do **Kernel**.
+
+Aqui, um joelho não é um "servo motor no pino 9".
+É uma articulação com cartilagem, fadiga, histórico de lesão e ângulos de segurança.
+
+Nós transpilamos para **Rust** porque a memória do hardware precisa ser infalível.
+Mas programamos em **HumForge** porque a segurança e a vida das máquinas
+não devem ser feitas de qualquer jeito.
+
+Elas devem ser forjadas com dedicação, delicadeza, suor e sangue.
+
+---
+
+## Por que HumForge existe?
+
+C++ e Rust foram escritos para controlar silício.
+HumForge foi escrita para proteger carne.
+
+Quando você programa um exoesqueleto em C++ tradicional, você escreve:
+- `pinos`
+- `buffers`
+- `timers`
+- `mutexes`
+
+Quando você programa em HumForge, você escreve:
+- `corpo`
+- `musculo`
+- `fadiga`
+- `intencao`
+- `reflexo`
+
+O código HumForge parece um protocolo médico.
+Mas por baixo, ele se transforma em Rust ultra-otimizado,
+pronto para rodar em microcontroladores ARM.
+
+---
+
+## Os Quatro Pilares da HumForge
+
+### 1. Corpo Humano (O Adão)
+A anatomia é um tipo de dado. O compilador **recusa compilar**
+se você tentar mover uma articulação além do limite fisiológico seguro.
+
+### 2. IA e Adaptação (O Aprendizado)
+Redes neurais não são bibliotecas externas. São **sentidos nativos**.
+A palavra-chave `adaptar()` permite que o exoesqueleto aprenda
+com o andar do usuário em tempo real.
+
+### 3. Bateria (A Energia Consciente)
+A energia é um recurso biológico. A linguagem decide sozinha
+quando reduzir assistência para preservar a autonomia.
+
+### 4. Segurança (O Sangue)
+Reflexos de segurança rodam no Kernel de Tempo Real (RTOS),
+separados da IA. Se a IA travar, o reflexo ainda protege o joelho.
+
+---
